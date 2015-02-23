@@ -143,10 +143,6 @@ public class Plansza extends JFrame implements ActionListener
 			}
 		}
 	
-		PanelDoRysowania panel = new PanelDoRysowania();
-		panel.paintComponents(null);
-		add(panel);
-		
 		tKoment = new JLabel ("Witajcie! Zaczynaj¹ NIEBIESKIE pionki.");
 		tKoment.setBounds(50, 20, 300, 20);
 		add(tKoment);
